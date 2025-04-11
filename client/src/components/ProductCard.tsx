@@ -86,7 +86,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
       <Box sx={{ position: 'relative', pt: '75%', overflow: 'hidden' }}>
         <CardMedia
           component="img"
-          image={`http://localhost:5000${image}`}
+          image={image}
           alt={name}
           sx={{
             position: 'absolute',

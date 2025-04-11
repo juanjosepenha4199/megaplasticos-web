@@ -20,25 +20,8 @@ import { normalizeText } from '../utils/text';
 import SortIcon from '@mui/icons-material/Sort';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
-
-interface Specifications {
-  material: string;
-  dimensions: string;
-  thickness: string;
-  units_per_package: number;
-  color: string;
-}
-
-interface Product {
-  _id: string;
-  name: string;
-  description: string;
-  price: number;
-  category: string;
-  image: string;
-  stock: number;
-  specifications: Specifications;
-}
+import { products as localProducts } from '../data/products';
+import { Product, Specifications } from '../types/product';
 
 const categories = [
   'Bolsa selle hermético',
@@ -73,42 +56,9 @@ const ProductCatalog: React.FC = () => {
   const [sortByPrice, setSortByPrice] = useState<'none' | 'desc' | 'asc'>('none');
   
   useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const response = await fetch('http://localhost:5000/api/products');
-        if (!response.ok) {
-          throw new Error('Error al cargar los productos');
-        }
-        const data = await response.json();
-        setProducts(data);
-        setError(null);
-      } catch (err) {
-        setError('El numero en inventario será actualizado en el futuro...');
-        // Datos de ejemplo como fallback
-        setProducts([
-          {
-            _id: '1',
-            name: 'Bolsa Selle Hermético 3x2.5 Millar',
-            description: 'Bolsa con selle hermético de alta resistencia, ideal para almacenamiento seguro',
-            price: 14300,
-            category: 'Bolsa selle hermético',
-            image: '/images/products/sellehermetico3x2.jpg',
-            stock: 28,
-            specifications: {
-              material: 'Polietileno de alta densidad',
-              dimensions: '3cm x 2.5cm',
-              thickness: '40 micras',
-              units_per_package: 1000,
-              color: 'Transparente',
-            }
-          },
-        ]);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchProducts();
+    // Usar los datos locales directamente
+    setProducts(localProducts);
+    setLoading(false);
   }, []);
 
   const filteredProducts = products.filter((product) => {
