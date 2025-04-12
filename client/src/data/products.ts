@@ -9,7 +9,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 14300,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico3x2,5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '3cmx2,5cm',
@@ -25,7 +25,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 1600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico3x2,5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '3cmx2,5cm',
@@ -75,7 +75,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 17000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico5x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '5cmx5cm',
@@ -91,7 +91,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 1900,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico5x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '5cmx5cm',
@@ -108,7 +108,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 17000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico6x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '6cmx5cm',
@@ -124,7 +124,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 1900,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico6x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '6cmx5cm',
@@ -141,7 +141,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 18200,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico9x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '9cmx5cm',
@@ -157,7 +157,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 2000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico9x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '9cmx5cm',
@@ -174,7 +174,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 22800,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico9x6.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '9cmx6cm',
@@ -190,7 +190,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 2500,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico9x6.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '9cmx6cm',
@@ -207,7 +207,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 25600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico10x8.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '10cmx8cm',
@@ -223,7 +223,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 2800,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico10x8.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '10cmx8cm',
@@ -240,7 +240,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 35600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico12x10.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '12cmx10cm',
@@ -256,7 +256,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 3800,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico12x10.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '12cmx10cm',
@@ -273,7 +273,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 39600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico12x12.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '12cmx12cm',
@@ -289,7 +289,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 4300,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico12x12.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '12cmx12cm',
@@ -306,7 +306,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 37500,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico14x8.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '14cmx8cm',
@@ -322,7 +322,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 4000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico14x8.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '14cmx8cm',
@@ -339,7 +339,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 39600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico14x10.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '14cmx10cm',
@@ -355,7 +355,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 4300,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico14x10.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '14cmx10cm',
@@ -372,7 +372,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 47600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico12x12.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '14cmx12cm',
@@ -388,7 +388,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 5200,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico12x12.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '14cmx12cm',
@@ -405,7 +405,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 51400,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico14x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '14cmx14cm',
@@ -421,7 +421,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 5600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico14x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '14cmx14cm',
@@ -438,7 +438,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 63000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico18x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '18cmx14cm',
@@ -454,7 +454,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 6900,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico18x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '18cmx14cm',
@@ -471,7 +471,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 74500,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico18x17.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '18cmx17cm',
@@ -487,7 +487,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 8000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico18x17.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '18cmx17cm',
@@ -504,7 +504,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 53400,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico20x10.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx10cm',
@@ -520,7 +520,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 5800,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico20x10.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx10cm',
@@ -537,7 +537,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 73700,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico20x15.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx15cm',
@@ -553,7 +553,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 8000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico20x15.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx15cm',
@@ -570,7 +570,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 88700,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico20x18.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx18cm',
@@ -586,7 +586,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 9600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico20x18.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx18cm',
@@ -603,7 +603,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 97900,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico14x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx20cm',
@@ -619,7 +619,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 10500,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico14x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx20cm',
@@ -636,7 +636,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 72400,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico22x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '22cmx14cm',
@@ -652,7 +652,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 12000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico22x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '22cmx14cm',
@@ -669,7 +669,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 98900,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico22x18.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '22cmx18cm',
@@ -685,7 +685,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 11000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico22x18.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '22cmx18cm',
@@ -702,7 +702,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 82600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico24x15.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '24cmx15cm',
@@ -718,7 +718,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 8900,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico24x15.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '24cmx15cm',
@@ -735,7 +735,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 112200,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico24x20.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '24cmx20cm',
@@ -751,7 +751,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 12000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico24x20.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '24cmx20cm',
@@ -768,7 +768,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 102000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico28x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '28cmx14cm',
@@ -784,7 +784,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 11200,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico28x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '28cmx14cm',
@@ -801,7 +801,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 131600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico28x20.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '28cmx20cm',
@@ -817,7 +817,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 13700,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico28x20.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '28cmx20cm',
@@ -834,7 +834,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 134000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico30x20.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '30cmx20cm',
@@ -850,7 +850,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 14000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico30x20.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '30cmx20cm',
@@ -867,7 +867,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 163000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico30x25.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '30cmx25cm',
@@ -883,7 +883,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 17600,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico30x25.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '30cmx25cm',
@@ -900,7 +900,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 164000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico28x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '32cmx23,5cm',
@@ -916,7 +916,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 17700,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico28x14.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '32cmx23,5cm',
@@ -933,7 +933,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 180000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico18x17.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '36cmx25cm',
@@ -949,7 +949,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 19400,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico18x17.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '36cmx25cm',
@@ -966,7 +966,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 255000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico9x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '40cmx30cm',
@@ -982,7 +982,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 27500,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico9x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '40cmx30cm',
@@ -999,7 +999,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 255000,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico5x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '48cmx40cm',
@@ -1015,7 +1015,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 45300,
         stock: 1000,
-        image: '/images/products/sellehermetico3x2.jpg',
+        image: '/images/products/sellehermetico5x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '48cmx40cm',
