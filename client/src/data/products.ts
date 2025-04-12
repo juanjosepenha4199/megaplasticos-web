@@ -42,7 +42,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 14300,
         stock: 1000,
-        image: '/images/products/sellehermetico/sellehermetico4x3.jpg',
+        image: '/images/products/sellehermetico/sellehermetico9x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '4cmx3cm',
@@ -58,7 +58,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 1600,
         stock: 1000,
-        image: '/images/products/sellehermetico/sellehermetico4x3.jpg',
+        image: '/images/products/sellehermetico/sellehermetico9x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '4cmx3cm',
@@ -603,7 +603,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 97900,
         stock: 1000,
-        image: '/images/products/sellehermetico/sellehermetico20x20.jpg',
+        image: '/images/products/sellehermetico/sellehermetico9x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx20cm',
@@ -619,7 +619,7 @@ export const products: Product[] = [
         category: 'Bolsa selle hermético',
         price: 10500,
         stock: 1000,
-        image: '/images/products/sellehermetico/sellehermetico20x20.jpg',
+        image: '/images/products/sellehermetico/sellehermetico9x5.jpg',
         specifications: {
             material: 'Polietileno de alta densidad',
             dimensions: '20cmx20cm',
@@ -1032,7 +1032,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 18000,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1kgnegro.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1048,7 +1048,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 18000,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1kgverde.png',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1064,7 +1064,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 18000,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1kgblanco.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1081,7 +1081,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 2200,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1kgnegro.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1098,7 +1098,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 2200,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1kgverde.png',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1115,7 +1115,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 2200,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1kgblanco.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1133,7 +1133,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 18000,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1,5kgnegro.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1149,7 +1149,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 18000,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1,5kgverde.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1165,7 +1165,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 18000,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1,5kgblanco.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
@@ -1182,11 +1182,11 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 2200,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1,5kgnegro.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
-            thickness: '30 micras',
+            thickness: '60 micras',
             units_per_package: 100,
             color: 'Negro',
         },
@@ -1199,11 +1199,11 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 2200,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1,5kgverde.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',
-            thickness: '30 micras',
+            thickness: '60 micras',
             units_per_package: 100,
             color: 'Verde',
         },
@@ -1216,7 +1216,7 @@ export const products: Product[] = [
         category: 'Bolsa tipo Camiseta',
         price: 2200,
         stock: 300,
-        image: '/images/products/bolsacamiseta.jpg',
+        image: '/images/products/bolsacamiseta/1,5kgblanco.jpg',
         specifications: {
             material: 'Polietileno',
             dimensions: '50cm x 60cm',

@@ -65,15 +65,13 @@ const ProductCatalog: React.FC = () => {
     const normalizedSearch = normalizeText(searchTerm);
     const normalizedName = normalizeText(product.name);
     const normalizedDescription = normalizeText(product.description);
-    const normalizedCategory = normalizeText(product.category);
     const productName = product.name.toUpperCase();
 
     const matchesSearch = 
       normalizedName.includes(normalizedSearch) ||
-      normalizedDescription.includes(normalizedSearch) ||
-      normalizedCategory.includes(normalizedSearch);
+      normalizedDescription.includes(normalizedSearch);
 
-    const matchesCategory = category === 'all' || product.category === category;
+    const matchesCategory = category === 'all' || normalizeText(product.category) === normalizeText(category);
 
     const matchesColor = 
       color === 'TODOS' || 
@@ -131,8 +129,10 @@ const ProductCatalog: React.FC = () => {
             onChange={(e) => setCategory(e.target.value)}
           >
             <MenuItem value="all">Todas las categorías</MenuItem>
-            {categories.map(cat => (
-              <MenuItem key={cat} value={cat}>{cat}</MenuItem>
+            {categories.map((cat) => (
+              <MenuItem key={cat} value={cat}>
+                {cat}
+              </MenuItem>
             ))}
           </Select>
         </FormControl>
@@ -143,8 +143,10 @@ const ProductCatalog: React.FC = () => {
             label="Color"
             onChange={(e) => setColor(e.target.value)}
           >
-            {colors.map(colorOption => (
-              <MenuItem key={colorOption} value={colorOption}>{colorOption}</MenuItem>
+            {colors.map((col) => (
+              <MenuItem key={col} value={col}>
+                {col}
+              </MenuItem>
             ))}
           </Select>
         </FormControl>
@@ -155,8 +157,10 @@ const ProductCatalog: React.FC = () => {
             label="Unidad"
             onChange={(e) => setUnitType(e.target.value)}
           >
-            {unitTypes.map(type => (
-              <MenuItem key={type} value={type}>{type}</MenuItem>
+            {unitTypes.map((type) => (
+              <MenuItem key={type} value={type}>
+                {type}
+              </MenuItem>
             ))}
           </Select>
         </FormControl>
